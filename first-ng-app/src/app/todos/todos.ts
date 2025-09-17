@@ -6,7 +6,7 @@ import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-todos',
-  imports: [NgIf],
+  imports: [],
   templateUrl: './todos.html',
   styleUrl: './todos.scss'
 })
