@@ -5,7 +5,7 @@ import { UpperCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-todo-item',
-  imports: [HighlightCompletedTodo, UpperCasePipe],
+  imports: [HighlightCompletedTodo],
   templateUrl: './todo-item.html',
   styleUrl: './todo-item.scss'
 })
